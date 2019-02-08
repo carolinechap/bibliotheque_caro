@@ -36,10 +36,27 @@ public function __construct($prenom, $nom, $id = null){
         return $this;
     }
     public function setPrenom($prenom){
+        if (strlen($prenom) == 0) {
+            throw new Exception('Le prenom ne peut pas être vide.');
+        }
+
+        if (strlen($prenom) > 150) {
+            throw new Exception('Le prenom ne peut pas être supérieur à 150 caractères.');
+        }
+
         $this->prenom = $prenom;
         return $this;
+        
     }
     public function setNom($nom){
+        if (strlen($nom) == 0) {
+            throw new Exception('Le nom ne peut pas être vide.');
+        }
+
+        if (strlen($nom) > 150) {
+            throw new Exception('Le nom ne peut pas être supérieur à 150 caractères.');
+        }
+
         $this->nom = $nom;
         return $this;
     }

@@ -137,8 +137,8 @@ class AbonneOuvrage extends Db{
         else return;
 
         if ($object) {
-            $abonneOuvrage = new AbonneOuvrage($data['id_abonne'], $data['id_ouvrage'], intval($data['id']));
-            return $abonneOuvrage;
+            $abonnements = new AbonneOuvrage($data['id_abonne'], $data['id_ouvrage'], intval($data['id']));
+            return $abonnements;
         }
 
         return $data;

@@ -36,10 +36,26 @@ public function __construct($titre, $auteur, $id = null){
         return $this;
     }
     public function setTitre($titre){
+        if (strlen($titre) == 0) {
+            throw new Exception('Le titre ne peut pas être vide.');
+        }
+
+        if (strlen($titre) > 150) {
+            throw new Exception('Le titre ne peut pas être supérieur à 150 caractères.');
+        }
+
         $this->titre = $titre;
         return $this;
     }
     public function setAuteur($auteur){
+        if (strlen($auteur) == 0) {
+            throw new Exception('L\'auteur ne peut pas être vide.');
+        }
+
+        if (strlen($auteur) > 150) {
+            throw new Exception('L\' auteur ne peut pas être supérieur à 150 caractères.');
+        }
+
         $this->auteur = $auteur;
         return $this;
     }
