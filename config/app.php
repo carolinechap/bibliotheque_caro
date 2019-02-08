@@ -8,7 +8,7 @@ class_alias('\Bramus\Router\Router', 'Router');
 /**
  * Constantes : éléments de configuration propres au système
  */
-const WEBSITE_TITLE = "Mon nouveau site en MVC";
+const WEBSITE_TITLE = "La bibliothèque de Caro";
 const BASE_URL = "http://localhost/examenblanc2";
 
 /**
