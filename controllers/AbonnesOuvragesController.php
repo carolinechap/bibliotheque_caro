@@ -29,8 +29,8 @@ class AbonnesOuvragesController {
     public function save() {
         $abonnement = new AbonneOuvrage($_POST['id_abonne'], $_POST['id_ouvrage'], $_POST['id']);
         $abonnement->save();
-/* 
-        Header('Location: '. url('abonnement')); */
+ 
+        Header('Location: '. url('abonnements'));
     }
 
     public function delete($id) {
@@ -38,12 +38,12 @@ class AbonnesOuvragesController {
         $abonnement = AbonneOuvrage::findOne($id);
         $abonnement->delete();
 
-/*         Header('Location: '. url('abonnement')); */
-/*         exit(); */
+         Header('Location: '. url('abonnements'));
+        exit();
 
     }
 
-/*     public function listeNomsAbonnes() {
+/*      public function listeNomsAbonnes() {
 
         $data = AbonneOuvrage::listeNomsAbonnes();
         var_dump($data);
@@ -54,5 +54,5 @@ class AbonnesOuvragesController {
         $data = AbonneOuvrage::nombreOuvrageParAbo();
         var_dump($data);
 
-    } */
+    }  */
 }

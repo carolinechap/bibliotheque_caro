@@ -1,3 +1,104 @@
+[2019-02-08 16:47:22] SELECT * FROM ouvrage WHERE `id` = '2'
+[2019-02-08 16:47:22] SELECT * FROM ouvrage WHERE `id` = '2'
+[2019-02-08 16:47:22] SELECT * FROM abonne WHERE `id` = '4'
+[2019-02-08 16:47:22] SELECT * FROM abonne WHERE `id` = '4'
+[2019-02-08 16:47:22] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:47:22] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:47:22] SELECT * FROM abonne WHERE `id` = '1'
+[2019-02-08 16:47:22] SELECT * FROM abonne WHERE `id` = '1'
+[2019-02-08 16:47:22] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:47:22] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:47:22] SELECT * FROM abonne WHERE `id` = '2'
+[2019-02-08 16:47:22] SELECT * FROM abonne WHERE `id` = '2'
+[2019-02-08 16:47:22] SELECT * FROM association_abonne_ouvrage
+[2019-02-08 16:47:22] INSERT INTO association_abonne_ouvrage (`id_abonne`, `id_ouvrage`) VALUES ('4', '2') 
+[2019-02-08 16:47:16] SELECT * FROM abonne
+[2019-02-08 16:47:16] SELECT * FROM ouvrage
+[2019-02-08 16:47:14] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:47:14] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:47:14] SELECT * FROM abonne WHERE `id` = '1'
+[2019-02-08 16:47:14] SELECT * FROM abonne WHERE `id` = '1'
+[2019-02-08 16:47:14] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:47:14] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:47:14] SELECT * FROM abonne WHERE `id` = '2'
+[2019-02-08 16:47:14] SELECT * FROM abonne WHERE `id` = '2'
+[2019-02-08 16:47:14] SELECT * FROM association_abonne_ouvrage
+[2019-02-08 16:46:19] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:46:19] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:46:19] SELECT * FROM abonne WHERE `id` = '1'
+[2019-02-08 16:46:19] SELECT * FROM abonne WHERE `id` = '1'
+[2019-02-08 16:46:19] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:46:19] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:46:19] SELECT * FROM abonne WHERE `id` = '2'
+[2019-02-08 16:46:19] SELECT * FROM abonne WHERE `id` = '2'
+[2019-02-08 16:46:19] SELECT * FROM association_abonne_ouvrage
+[2019-02-08 16:46:02] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:46:02] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:46:02] SELECT * FROM abonne WHERE `id` = '1'
+[2019-02-08 16:46:02] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:46:02] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:46:02] SELECT * FROM abonne WHERE `id` = '2'
+[2019-02-08 16:46:02] SELECT * FROM association_abonne_ouvrage
+[2019-02-08 16:45:49] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:45:49] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:45:49] SELECT * FROM abonne WHERE `id` = '2'
+[2019-02-08 16:45:48] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:45:48] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:45:48] SELECT * FROM abonne WHERE `id` = '1'
+[2019-02-08 16:45:48] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:45:48] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:45:48] SELECT * FROM abonne WHERE `id` = '2'
+[2019-02-08 16:45:48] SELECT * FROM association_abonne_ouvrage
+[2019-02-08 16:44:43] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:44:43] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:44:43] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:44:43] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:44:43] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:44:43] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:44:43] SELECT * FROM association_abonne_ouvrage
+[2019-02-08 16:44:28] INSERT INTO association_abonne_ouvrage (`id_abonne`, `id_ouvrage`) VALUES ('2', '1') 
+[2019-02-08 16:43:40] INSERT INTO association_abonne_ouvrage (`id_abonne`, `id_ouvrage`) VALUES ('2', '1') 
+[2019-02-08 16:43:37] SELECT * FROM abonne
+[2019-02-08 16:43:37] SELECT * FROM ouvrage
+[2019-02-08 16:43:28] DELETE FROM association_abonne_ouvrage WHERE id = '1'
+[2019-02-08 16:43:28] SELECT * FROM association_abonne_ouvrage WHERE `id` = '1'
+[2019-02-08 16:43:27] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:43:27] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:43:27] SELECT * FROM ouvrage WHERE `id` = '2'
+[2019-02-08 16:43:27] SELECT * FROM ouvrage WHERE `id` = '2'
+[2019-02-08 16:43:27] SELECT * FROM association_abonne_ouvrage
+[2019-02-08 16:43:17] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:43:17] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:43:17] SELECT * FROM ouvrage WHERE `id` = '2'
+[2019-02-08 16:43:17] SELECT * FROM ouvrage WHERE `id` = '2'
+[2019-02-08 16:43:17] SELECT * FROM association_abonne_ouvrage
+[2019-02-08 16:43:03] SELECT * FROM association_abonne_ouvrage
+[2019-02-08 16:42:11] SELECT * FROM association_abonne_ouvrage
+[2019-02-08 16:40:23] SELECT * FROM abonne WHERE `id` = '1'
+[2019-02-08 16:40:23] SELECT * FROM abonne WHERE `id` = '1'
+[2019-02-08 16:40:23] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:40:23] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:40:23] SELECT * FROM abonne WHERE `id` = '1'
+[2019-02-08 16:40:23] SELECT * FROM abonne WHERE `id` = '1'
+[2019-02-08 16:40:23] SELECT * FROM ouvrage WHERE `id` = '2'
+[2019-02-08 16:40:23] SELECT * FROM ouvrage WHERE `id` = '2'
+[2019-02-08 16:40:23] SELECT * FROM association_abonne_ouvrage
+[2019-02-08 16:39:49] SELECT * FROM abonne WHERE `id` = '1'
+[2019-02-08 16:39:49] SELECT * FROM abonne WHERE `id` = '1'
+[2019-02-08 16:39:49] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:39:49] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:39:49] SELECT * FROM ouvrage WHERE `id` = '1'
+[2019-02-08 16:39:49] SELECT * FROM abonne WHERE `id` = '1'
+[2019-02-08 16:39:49] SELECT * FROM abonne WHERE `id` = '1'
+[2019-02-08 16:39:49] SELECT * FROM ouvrage WHERE `id` = '2'
+[2019-02-08 16:39:49] SELECT * FROM ouvrage WHERE `id` = '2'
+[2019-02-08 16:39:49] SELECT * FROM ouvrage WHERE `id` = '2'
+[2019-02-08 16:39:49] SELECT * FROM association_abonne_ouvrage
+[2019-02-08 16:39:19] SELECT * FROM ouvrage WHERE `id` = '3'
+[2019-02-08 16:39:19] SELECT * FROM ouvrage WHERE `id` = '3'
+[2019-02-08 16:39:19] SELECT * FROM association_abonne_ouvrage
+[2019-02-08 16:36:00] SELECT * FROM ouvrage WHERE `id` = '3'
+[2019-02-08 16:36:00] SELECT * FROM association_abonne_ouvrage
 [2019-02-08 16:34:03] SELECT * FROM ouvrage WHERE `id` = '3'
 [2019-02-08 16:34:03] SELECT * FROM association_abonne_ouvrage
 [2019-02-08 16:34:00] SELECT * FROM abonne
