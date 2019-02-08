@@ -19,10 +19,10 @@ class AbonnesOuvragesController {
 
     public function add() {
 
-        $abonnements = AbonneOuvrage::findAll();
         $ouvrages = Ouvrage::findAll();
+        $abonnes = Abonne::findAll();
 
-        view('abonnements.add', compact('abonnements', 'ouvrages'));
+        view('abonnements.add', compact('ouvrages', 'abonnes'));
 
     }
 
