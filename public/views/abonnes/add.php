@@ -4,8 +4,8 @@
 
 <form action="<?= url('abonnes/save') ?>" method="post">
 
-    <input class="form-control" type="text" name="prenom" placeholder="prenom">
-    <input class="form-control" type="text" name="nom" placeholder="nom">
+    <input class="form-control form-control-lg mt-5 mb-2" type="text" name="prenom" placeholder="Prenom">
+    <input class="form-control form-control-lg mb-5" type="text" name="nom" placeholder="Nom">
 
     <button class="btn btn-primary" type="submit">Créer un abonné</button>
 

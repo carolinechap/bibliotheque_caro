@@ -8,9 +8,9 @@
 <table class="table table-hover justify-content-center">
 
 <tr>
-    <th scope="col">Titre</th>
-    <th scope="col">Ateur</th>
-    <th scope="col">Voir</th>
+    <th scope="col">Titres</th>
+    <th scope="col">Auteurs</th>
+    <th scope="col">Action</th>
 
 </tr>
 

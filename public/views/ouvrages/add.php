@@ -4,8 +4,8 @@
 
 <form action="<?= url('ouvrages/save') ?>" method="post">
 
-    <input class="form-control" type="text" name="titre" placeholder="Titre">
-    <input class="form-control" type="text" name="auteur" placeholder="Auteur">
+    <input class="form-control form-control-lg mt-5 mb-2" type="text" name="titre" placeholder="Titre">
+    <input class="form-control form-control-lg mb-5" type="text" name="auteur" placeholder="Auteur">
 
     <button class="btn btn-primary" type="submit">Créer un ouvrage</button>
 
