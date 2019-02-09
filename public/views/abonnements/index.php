@@ -1,6 +1,6 @@
 <?php ob_start(); ?>
 
-<h1>Liste des abonnés</h1>
+<h1>Liste des abonnements</h1>
 <a class="btn btn-success my-5 btn-lg d-flex justify-content-center"  href="<?= url('abonnements/add') ?>">Ajouter</a>
 
 
@@ -8,9 +8,8 @@
 
 <tr>
     <th scope="col">Abonné</th>
-    <th scope="col">Auteur</th>
     <th scope="col">Ouvrage</th>
-    <th scope="col">Voir</th>
+    <th scope="col">Action</th>
 
 </tr>
 
@@ -19,13 +18,12 @@
 
 <tr>
     <td class="pr-5">
-    <?= $abo->abonne()->nom() ?> - <?= $abo->abonne()->prenom() ?>
+    <?= $abo->abonne()->nom() ?> <?= $abo->abonne()->prenom() ?>
     </td>
     <td class="pr-5">
-    <?= $abo->ouvrage()->auteur() ?>
-    </td>
-    <td class="pr-5">
-    <?= $abo->ouvrage()->titre() ?>
+    Titre de l'ouvrage : <?= $abo->ouvrage()->titre() ?> <br>
+    écrit par <?= $abo->ouvrage()->auteur() ?><br>
+
     </td>
     <td class="pr-5">
     <a class="btn btn-info btn-block"  href="<?=url('/abonnements/delete/' . $abo->id())?>">Supprimer</a>
