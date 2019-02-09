@@ -26,5 +26,5 @@
 ## Liste des abonnements / Onglet abonnements
 ![Liste des abonnements](https://imgur.com/oDgR8b8.png)
 
-### Ajouter un abonnement /
+### Ajouter un abonnement
 ![Ajouter un abonnement](https://imgur.com/tVbVyI2.png)
