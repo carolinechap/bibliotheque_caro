@@ -1,3 +1,11 @@
+[2019-02-09 14:47:46] SELECT * FROM ouvrage
+[2019-02-09 14:45:33] SELECT * FROM abonne
+[2019-02-09 14:45:33] UPDATE abonne SET `prenom` = 'Haikouhi', `nom` = 'Beyonce' WHERE id = '4'
+[2019-02-09 14:42:41] SELECT * FROM abonne WHERE `id` = '4'
+[2019-02-09 14:42:34] SELECT * FROM abonne
+[2019-02-09 14:42:34] UPDATE abonne SET `prenom` = 'Caroline', `nom` = 'Chapeau' WHERE id = '1'
+[2019-02-09 14:42:31] SELECT * FROM abonne WHERE `id` = '1'
+[2019-02-09 14:42:30] SELECT * FROM abonne
 [2019-02-09 14:18:51] SELECT * FROM abonne
 [2019-02-09 14:18:51] SELECT * FROM ouvrage
 [2019-02-09 14:18:40] SELECT * FROM abonne
