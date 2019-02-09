@@ -4,13 +4,13 @@
 
 <form action="<?= url('abonnements/save') ?>" method="post">
 
-    <select class="form-control" name="id_abonne" id="">
+    <select class="form-control form-control-lg mt-5 mb-2" name="id_abonne" id="">
         <?php foreach($abonnes as $a) : ?>
             <option value="<?= $a->id() ?>"><?= $a->prenom() ?> <?= $a->nom() ?></option>
         <?php endforeach; ?>
     </select>
 
-    <select class="form-control" name="id_ouvrage" id="">
+    <select class="form-control form-control-lg mb-5" name="id_ouvrage" id="">
         <?php foreach($ouvrages as $o) : ?>
             <option value="<?= $o->id() ?>"><?= $o->auteur() ?> - <?= $o->titre() ?></option>
         <?php endforeach; ?>

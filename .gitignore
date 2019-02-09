@@ -1,2 +1,6 @@
 vendor/
 config/database.php
+public/.DS_Store
+public/assets/.DS_Store
+public/assets/img/.DS_Store
+.DS_Store
