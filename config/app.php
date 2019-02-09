@@ -9,7 +9,7 @@ class_alias('\Bramus\Router\Router', 'Router');
  * Constantes : éléments de configuration propres au système
  */
 const WEBSITE_TITLE = "La bibliothèque de Caro";
-const BASE_URL = "http://localhost/examenblanc2";
+const BASE_URL = "http://localhost:8888/bibliotheque_caro";
 
 /**
  * Liste des dossiers source pour l'autoload des classes
